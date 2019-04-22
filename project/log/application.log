@@ -1,0 +1,24 @@
+2019-04-20 22:38:50 INFO  [main]: Students:
+id=1, firstName='Иванов', lastName='Иван', middleName='Иванович', speciality='Компьютерная безопасность', pointAverage=4.61
+id=35, firstName='Фролов', lastName='Артем', middleName='Геннадьевич', speciality='Компьютерная безопасность', pointAverage=4.5
+
+2019-04-20 22:43:21 INFO  [main]: id=35, firstName='Фролов', lastName='Артем', middleName='Геннадьевич', speciality='Компьютерная безопасность', pointAverage=4.5
+2019-04-20 23:13:37 INFO  [main]: id=1, title='Компьютерная безопасность', description='4.555'
+2019-04-20 23:14:21 INFO  [main]: Accepted! data successfully saved!
+2019-04-20 23:15:00 INFO  [main]: Accepted! data successfully saved!
+2019-04-20 23:16:28 INFO  [main]: Students:
+id=1, firstName='Иванов', lastName='Иван', middleName='Иванович', speciality='Компьютерная безопасность', pointAverage=4.61
+id=35, firstName='Фролов', lastName='Артем', middleName='Геннадьевич', speciality='Компьютерная безопасность', pointAverage=4.5
+
+2019-04-20 23:17:06 INFO  [main]: Accepted! data successfully saved!
+2019-04-20 23:17:41 INFO  [main]: Students:
+id=1, firstName='null', lastName='Иванович', middleName='null', speciality='Компьютерная безопасность', pointAverage=4.61
+id=35, firstName='null', lastName='Геннадьевич', middleName='null', speciality='Компьютерная безопасность', pointAverage=4.5
+
+2019-04-20 23:19:19 INFO  [main]: Students:
+id=1, firstName='Иванов', lastName='Иван', middleName='Иванович', speciality='Компьютерная безопасность', pointAverage=4.61
+id=35, firstName='Фролов', lastName='Артем', middleName='Геннадьевич', speciality='Компьютерная безопасность', pointAverage=4.5
+
+2019-04-20 23:19:38 INFO  [main]: Student with ID = 35 deleted!
+2019-04-20 23:20:05 INFO  [main]: Student with ID = 37 deleted!
+2019-04-20 23:21:20 INFO  [main]: Accepted! data successfully saved!
