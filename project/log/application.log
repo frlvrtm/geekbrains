@@ -22,3 +22,21 @@ id=35, firstName='Фролов', lastName='Артем', middleName='Геннад
 2019-04-20 23:19:38 INFO  [main]: Student with ID = 35 deleted!
 2019-04-20 23:20:05 INFO  [main]: Student with ID = 37 deleted!
 2019-04-20 23:21:20 INFO  [main]: Accepted! data successfully saved!
+2019-04-24 17:53:25 INFO  [main]: Students:
+id=1, firstName='Иванов', lastName='Иван', middleName='Иванович', speciality='Компьютерная безопасность', pointAverage=4.61
+
+2019-04-24 17:57:33 INFO  [main]: Students:
+id=1, firstName='Иванов', lastName='Иван', middleName='Иванович', speciality='Компьютерная безопасность', pointAverage=4.61
+
+2019-04-24 17:58:16 INFO  [main]: Students:
+id=1, firstName='Иванов', lastName='Иван', middleName='Иванович', speciality='Компьютерная безопасность', pointAverage=4.61
+
+2019-04-24 18:00:44 INFO  [main]: Students:
+id=1, firstName='Иванов', lastName='Иван', middleName='Иванович', speciality='Компьютерная безопасность', pointAverage=4.61
+
+2019-04-24 18:13:48 INFO  [main]: Students:
+id=1, firstName='Иванов', lastName='Иван', middleName='Иванович', speciality='Компьютерная безопасность', pointAverage=4.61
+
+2019-04-24 18:15:12 INFO  [main]: Students:
+id=1, firstName='Иванов', lastName='Иван', middleName='Иванович', speciality='Компьютерная безопасность', pointAverage=4.61
+

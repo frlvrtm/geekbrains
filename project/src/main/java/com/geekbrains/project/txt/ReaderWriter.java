@@ -2,41 +2,23 @@ package com.geekbrains.project.txt;
 
 import com.geekbrains.project.dto.Student;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
 public class ReaderWriter {
 
     public static List<Student> reader(String filePath) {
-        BufferedReader reader = null;
         List<Student> list = new ArrayList<>();
-        String line;
-        try {
-            reader = new BufferedReader(new FileReader(filePath));
+        try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
+            String line;
             while ((line = reader.readLine()) != null) {
                 String[] fields = line.split(",");
-                Student student = new Student();
-                student.setFirstName(fields[0]);
-                student.setLastName(fields[1]);
-                student.setMiddleName(fields[2]);
-                student.setSpeciality(fields[3]);
-                student.setPointAverage(Double.parseDouble(fields[4]));
+                Student student = new Student(fields[0], fields[1], fields[2], fields[3], Double.parseDouble(fields[4]));
                 list.add(student);
             }
         } catch (IOException e) {
             e.printStackTrace();
-        } finally {
-            if (reader != null) {
-                try {
-                    reader.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
         }
         return list;
     }
